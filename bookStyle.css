@@ -1,0 +1,356 @@
+
+/*--------General-------*/
+* {
+	font-family: roboto, sans-serif;
+	font-weight: 400;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	text-decoration: none;
+}
+
+body {
+	background-color: #fff;
+	/*---
+	background-image: url("bookBack.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	---*/
+}
+
+h1 {
+	margin-top: 50px;
+	margin-right: 300px;
+	margin-left: 300px;
+	font-family: 'Montserrat',  sans-serif;
+	font-size: 55px;
+	font-weight: 600;
+	text-align: center;
+	color: #000;
+}
+
+h2 {
+	margin-top: 30px;
+	margin-right: 300px;
+	margin-left: 300px;
+	font-family: 'Montserrat',  sans-serif;
+	font-weight: 600;
+	text-align: center;
+	color: #000;
+}
+
+ul, li, a {
+	text-decoration: none;
+	list-style: none;
+}
+
+
+p {
+	text-align: center;
+}
+/*--------header-------*/
+
+#header-skin {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FB9B14;
+}
+
+.headerLogo{
+	position: absolute;
+	width: 20%;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#logo {
+	margin-top: -5px;
+	margin-left: 20px;
+	font-family: 'libre baskerville', serif;
+	font-size: 25px;
+	color: #fff;
+	float: left;
+}
+
+#logoPic {
+	float:left;
+	margin-left: 285px;
+	margin-top: -25px;
+	margin-bottom: 100px;
+	width: 2%;
+}
+
+#header-parent {
+	overflow: hidden;
+}
+
+.header_item {
+	margin-right: 10px;
+	padding-left: 10px;
+	display: inline-block;
+	font-size: 15px;
+	color: #fff;
+	float: right;
+}
+
+.header_item a{
+	color: #fff;
+	font-weight: 100;
+}
+
+ul li a.active {
+	font-weight: 500;
+}
+
+/*-------Index------*/
+#indexBack{
+	overflow: hidden;
+}
+
+#index-photo {
+	float: right;
+	margin-top: -310px;
+	margin-right: 200px;
+	width: 300px;
+
+}
+
+#page-p1 {
+	margin-top: 50px;
+	margin-left:200px;
+	margin-right:600px;
+	padding-top: 10px;
+	text-align: left;
+	font-size: 20px;
+}
+
+#page-p2 {
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left:350px;
+	margin-right:350px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+/*-------my books-------*/
+
+.book-box {
+	margin-left: 350px;
+	margin-right: 350px;
+	background-color:#fff;
+}
+
+.book-info {
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.book-specification {
+	padding: 8px;
+	text-align: center;
+
+}
+
+.book-table, th, td, tr {
+    border: 1px;
+    border-spacing: 5px;
+}
+
+.book-button {
+
+	border:none;
+	text-align: center;
+    display: inline-block;
+    font-size:16px;
+    font-weight: 600;
+    color: black;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+    background-color: #FB9B14;
+    color: black;
+}
+
+tr {
+	border-style: solid;
+	color: #fb9b14;
+}
+
+.book-button:hover {
+	color: #FB9B14;
+}
+
+
+/*-------contact-------*/
+
+.contact-container {
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.name-box {
+	font-family: 'Montserrat',  sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+#subject-box {
+	width: 300px;
+	height: 200px;
+}
+
+#contact-submit {
+	padding: 5px 10px;
+	text-align: center;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	background-color:#FB9B14;
+}
+
+/*----Browse books----*/
+
+#author {
+	margin-top: 20px;
+	width: 200px;
+	font-size: 18px;
+}
+
+#bookTitle {
+	margin-top: 20px;
+	width: 200px;
+	font-size: 18px;
+}
+
+#browse-button {
+	padding: 10px 10px;
+	width: 20px;
+	text-align: center;
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	background-color:#FB9B14;
+}
+
+.book-container {
+	font-family: "Montserrat";
+	font-weight: 600;
+	font-size: 14px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/*-------About-------*/
+
+#crew-parent {
+	overflow: hidden;
+	margin-left:160px;
+	margin-right:100px;
+}
+
+.crew-photo {
+	float: left;
+	display: inline-block;
+	padding:10px;
+}
+
+.crew-photo img {
+	width: 300px;
+}
+
+.crew-info {
+	display: inline-block;
+	float: left;
+	text-align: left;
+	font-size: 14px;
+}
+
+.crew-info li {
+	padding-left:100px;
+	padding-right:100px;
+}
+/*-------Footer-------*/
+
+.footer-parent {
+	overflow: hidden;
+
+}
+
+footer {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.footer-info {
+	color: #fb9b14;
+	margin-right: 20px;
+	margin-top: 16px;
+	margin-bottom: 15px;
+	padding-left: 5px;
+	font-size: 15px;
+	float: right;
+	display: inline-block;
+}
+
+.footer-info a {
+	font-weight: 100;
+	color: #000000;
+}
+/*----Log in----*/
+
+#login-button {
+	padding: 10px 10px;
+	width: 20px;
+	text-align: center;
+  text-decoration: none;
+	font-family: 'Montset', sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	background-color:#FB9B14;
+
+}
+
+
+/*----Gallery----*/
+
+#galleryContainer {
+	overflow: hidden;
+
+
+}
+
+#galleryWrapper {
+	margin-left: 100px;
+}
+
+.galleryImg{
+	float: left;
+	padding: 10px;
+	width: 250px;
+	height: auto;
+
+
+}
+
+
+.galleryPhoto:nth-child(4n+1) {
+	clear: left;
+
+}
+
+/*----Extra effects? ----*/
+#searchBar {
+	color: #000000;
+	display: inline-block;
+}
